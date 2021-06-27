@@ -1,0 +1,184 @@
+﻿<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>鯊皇</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  <title>鯊皇</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+  $(function() {
+    $('#BackTop').click(function() {
+      $('html,body').animate({
+        scrollTop: 0
+      }, 333);
+    });
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 300) {
+        $('#BackTop').fadeIn(222);
+      } else {
+        $('#BackTop').stop().fadeOut(222);
+      }
+    }).scroll();
+  });
+</script>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="https://justeu16.github.io/gura/Gphoto0.png" width=40px alt="">Gawr Gura</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#A1">人物介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#A2">私心推薦</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#A3">社群軟體</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="absolute">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://justeu16.github.io/gura/Gphoto4.jpg" alt="A" width="1110px" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://justeu16.github.io/gura/Gphoto2.jpg" alt="A" width="1110px" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://justeu16.github.io/gura/Gphoto3.jpg" alt="A" width="1110px" height="500px">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <section id="A1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>人物介紹</h1>
+              <hr>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="https://justeu16.github.io/gura/Gphoto5.jpg" alt="Gura">
+                <div class="card-body">
+                  <h4 class="card-title">Gawr Gura </h4>
+                  <p class="card-text">
+                  <p>中文譯名 : 噶嗚·古拉</p>
+                  <p>出道日期 : 2020 年 9 月 13 日</p>
+                  <p>生日 : 6月20日</p>
+                  <p>身高：141 厘米</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section id="A2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>私心推薦</h1>
+            <hr>
+          </div>
+          <div class="col-sm-12">
+            <div class="card">
+              <h3>第一首歌</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/WGgEFoI9MhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3>第二首歌</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/NjTy6gWfi8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3>第三首歌</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/bLs6GcuYUEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </section>
+    <section id="A3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>社群軟體</h1>
+            <hr>
+          </div>
+          <div class="col-sm-12">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Youtube</h4>
+                  <a href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g" target="_blank">
+                    <p class="card-text"><img src="https://justeu16.github.io/gura/Youtube.png" alt="YT" width="50%">Gawr Gura官方Youtube頻道</p>
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Twitter</h4>
+                  <a href="https://twitter.com/gawrgura" target="_blank">
+                    <p class="card-text"><img src="https://justeu16.github.io/gura/Twitter.jpg" alt="YT" width="50%">Gawr Gura 官方Twitter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
